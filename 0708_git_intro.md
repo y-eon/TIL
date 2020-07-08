@@ -47,3 +47,4 @@
 8.  마지막으로 `$ git push`
 9.  1번으로
 
+https://github.com/eduyu/TIL/blob/master/0708_git_intro.md
