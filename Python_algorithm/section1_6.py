@@ -1,9 +1,10 @@
 import sys
 sys.stdin = open('input.txt','rt')
 N = map(int,input())
-num = list(map(int,input().split()))
+x = list(map(int,input().split()))
+def digit_sum(x):
 b = []
-for a in num:
+for a in x:
   cnt = 0
   while True:
     cnt += a % 10
@@ -11,4 +12,5 @@ for a in num:
     if a == 0:
       b.append(cnt)
       break
-print(num[b.index(max(b))])
+ return num[b.index(max(b))]
+digit_sum(x)
