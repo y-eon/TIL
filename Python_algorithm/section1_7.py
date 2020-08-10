@@ -1,6 +1,6 @@
 import sys
 sys.stdin = open('input.txt','rt')
-N = map(int,input())
+N = int(input())
 a = []
 for i in range(1, N+1):
   cnt = 0

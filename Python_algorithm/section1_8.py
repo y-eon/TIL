@@ -26,4 +26,4 @@ ls = []
 for x in a:
  a = isPrime(reverse(x))
  if a != None:
-  print(a,sep='\t')
+  print(a,end=' ')
